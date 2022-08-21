@@ -13,9 +13,8 @@ t = int(input())
 
 for tc in range(1,t+1):
     n = int(input())
-
-    for i in range(n):
-        num = list(map(int,input().split()))
-        a = min(num) 
-        b = max(num)
-        print(f'#{tc} {b - a}')
+    num = list(map(int,input().split()))
+    a = min(num) 
+    b = max(num)
+    print(f'#{tc} {b - a}')
+#리스트로 받아서 max와 min구하기
